@@ -17,6 +17,8 @@
 <resources>
     <!-- Whether or not the dock settings are to be displayed for this device when docked -->
     <bool name="has_dock_settings">false</bool>
+    <!-- Whether there is a boot sounds checkbox -->
+    <bool name="has_boot_sounds">false</bool>
     <!-- Whether there is a silent mode checkbox  -->
     <bool name="has_silent_mode">true</bool>
     <!-- Whether the DEPRECATED power control widget is enabled for this
@@ -47,6 +49,9 @@
 
     <!-- Whether none security option is hide or not  (country specific). -->
     <bool name="config_hide_none_security_option">false</bool>
+
+    <!--Whether help links are defined. -->
+    <bool name="config_has_help">false</bool>
 
     <!-- Whether enable get network info -->
     <bool name="config_netinfo">false</bool>
@@ -96,6 +101,4 @@
     <!--Whether the storage manager exists. -->
     <bool name="config_has_storage_manager">false</bool>
 
-    <!--Whether help links are defined. -->
-    <bool name="config_has_help">false</bool>
 </resources>
